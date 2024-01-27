@@ -30,14 +30,14 @@ background-color: var(--accent1-color);
 }
 
 p {
-    padding: 25px;
+    padding: 15px;
     color:#03045e;
 }
 a {
     text-decoration: none;
 }
 div {
-    height: 200px;
+    height: 100px;
     width: 50px;
     position: relative;
 }
