@@ -49,6 +49,9 @@ p {
     background-color: #ddd;
     color: #000;
 }
+.indent {
+    margin-left: 2rem;
+}    
 aside {
     width: 20em;
     text-align: center;
