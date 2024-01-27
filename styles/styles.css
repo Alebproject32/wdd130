@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-main {
-    max-width: 840px;
-}   
+   
 aside {
         width: 20rem;
         margin: 1rem;
@@ -53,9 +51,9 @@ p {
     margin-left: 2rem;
 }    
 aside {
-    position: relative;
     width: 20em;
     text-align: center;
+    position: relative;
 }
 aside img {
     width: 200px;
@@ -67,7 +65,7 @@ footer {
     text-align: center;
 }
 aside h2 {
-    vertical-align: text-top;
+    position: absolute;
     top: 47px;
     left: 150px;
 }
