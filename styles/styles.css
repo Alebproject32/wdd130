@@ -38,7 +38,10 @@ p {
 aside {
     width: 20em;
     text-align: center;
-    position: relative;
+}
+aside img {
+    width: 200px;
+    height: auto;
 }
 main img {
     /* This CSS rule is about my main image in the website. */
