@@ -21,6 +21,9 @@ h1, article {
     position: absolute;
     float: right;
 }
+.article img {
+    float: right;
+}
 header {
 padding: 20px;
 background-color: var(--accent1-color);
