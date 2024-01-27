@@ -43,7 +43,7 @@ main img {
     /* This CSS rule is about my main image in the website. */
     float: right;
 }
-h2 {
+aside h2 {
     position: relative;
     top: 47px;
     left: 150px;
