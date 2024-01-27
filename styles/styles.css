@@ -41,7 +41,12 @@ aside {
 }
 aside img {
     width: 200px;
-    height: auto;
+    height: auto;    
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
 main img {
     /* This CSS rule is about my main image in the website. */
