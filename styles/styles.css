@@ -36,7 +36,7 @@ p {
     color: #000;
 }
 aside {
-    position: absolute;
+    position: relative;
     width: 20em;
     text-align: center;
 }
@@ -45,7 +45,7 @@ main img {
     float: right;
 }
 h2 {
-    position: absolute;
+    position: relative;
     top: 47px;
     left: 150px;
 }
