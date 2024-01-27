@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
+h1, article {
+    position: absolute;
+    float: right;
+}
 header {
 padding: 20px;
 background-color: var(--accent1-color);
@@ -32,4 +36,10 @@ a {
 div {
     height: 200px;
     width: 50px;
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
