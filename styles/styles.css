@@ -53,6 +53,7 @@ p {
     margin-left: 2rem;
 }    
 aside {
+    position: relative;
     width: 20em;
     text-align: center;
 }
@@ -66,6 +67,7 @@ footer {
     text-align: center;
 }
 aside h2 {
+    position: absolute;
     vertical-align: text-top;
     top: 47px;
     left: 150px;
