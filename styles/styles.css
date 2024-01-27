@@ -34,6 +34,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     /* This CSS rule is about my main image in the website. */
+    float: right;
     margin: 0 0 1rem 1rem;
 }
 p {
