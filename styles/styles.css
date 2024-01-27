@@ -36,8 +36,9 @@ p {
     color: #000;
 }
 aside {
+    position: relative;
     width: 20em;
-    text-align: right;
+    text-align: center;
 }
 main img {
     /* This CSS rule is about my main image in the website. */
