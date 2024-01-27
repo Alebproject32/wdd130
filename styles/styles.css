@@ -36,6 +36,7 @@ p {
     color: #000;
 }
 aside {
+    position: absolute;
     width: 20em;
     text-align: center;
 }
@@ -43,5 +44,9 @@ main img {
     /* This CSS rule is about my main image in the website. */
     float: right;
 }
-
+h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
     
