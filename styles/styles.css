@@ -40,7 +40,7 @@ aside {
     text-align: center;
 }
 main img {
-    /* you must likely will have other declarations here */
+    /* This CSS rule is about my main image in the website. */
     float: right;
 }
 aside h2 {
