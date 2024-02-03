@@ -20,7 +20,7 @@ body {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
         font-family: var(--heading-font);
         color: var(--primary-color);
 }
@@ -50,4 +50,34 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+.hero {
+    position: relative;
+    
+}
+.hero img {
+    display: block;
+    width: 20%;;
+    height: auto;
+}
+.background img {
+    position: relative;
+    width: 100%;
+}
+ article {
+    position: absolute;
+    background-color: #03045e;
+    opacity: .4;
+    height: 80px;
+    bottom: 100px;
+    right: 140px;
+}
+.block {
+    position: absolute;
+    background-color: black;
+    opacity: .4;
+    color: aliceblue;
+    bottom: 200px;
+    right: 260px;
+    font-family: 'Times New Roman', Times, serif;
 }
