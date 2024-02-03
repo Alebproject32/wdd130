@@ -86,7 +86,7 @@ header, .grid, footer {
 }
 .grid {
     display: grid;
-    align-items: right;
+    align-items: center;
     flex-wrap: wrap;
 }
 main {
