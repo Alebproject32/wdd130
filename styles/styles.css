@@ -48,7 +48,7 @@ main img {
 }
 p {
     padding: 10px;
-    flex-direction: center;
+    flex-direction: initial;
 
 }
 
