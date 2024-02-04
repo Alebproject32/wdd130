@@ -1,7 +1,7 @@
 .flexbox-container {
     display: flex;
-    background-color: gold;
-    justify-content: center;
+    background-color: green;
+    justify-content: flex-start;
 }
 
 .flexbox-item {
@@ -31,9 +31,5 @@ title{
 }
 .main-axis, hr {
     color: red;
-    
-}
-hr {
-    height:
     
 }

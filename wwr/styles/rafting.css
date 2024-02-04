@@ -25,8 +25,13 @@ h1, article {
     float: right;
 }
 header {
-padding: 20px;
-background-color: var(--accent1-color);
+    padding: 20px;
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    max-width: 100px;
+    margin: auto;
 }
 
 p {
@@ -43,6 +48,18 @@ div {
 }
 .hero img {
     display: block;
-    width: 100%;
+    width: 800%;
     height: auto;
+}
+.grid {
+    display: grid;
+    justify-content: flex-start;
+    
+}   
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
 }
