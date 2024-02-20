@@ -1,0 +1,48 @@
+* {
+    margin: 10 15;
+    padding: 10 5;
+    box-sizing: border-box;
+}
+form, fieldset {
+margin: 10 10 10 10;
+border-style: groove;
+align-items: center;
+}
+
+form {  
+    background: #c8c8c8;
+    font-style: oblique;
+    width: 720px;
+    height: 420px;
+    border-radius: 15px;
+    -moz-box-align: center;
+}
+legend {
+    font-weight: bold;
+    color: navy;
+}
+ header, h1, footer {
+    text-align:left;
+    text-align: center;
+    font-style: italic;
+    color: navy;
+ }
+
+ button :hover {
+    background: rgba(1, 75, 160, 0.8);
+    
+ }
+
+ p {
+    text-align: center;
+ }
+
+ .btn {
+    background-color:darkblue;
+    align-items: center;
+    -webkit-text-fill-color: azure;
+ }
+ .box {
+display: flex;-moz-box-align: center;
+
+ }

@@ -1,0 +1,60 @@
+* {
+    margin: 0.1px;
+    padding: 0.2px;
+    box-sizing: border-box;
+}
+
+body {
+    display:grid;
+    justify-content: center;
+    min-height: 50vh;
+
+}
+
+form {  
+    background: #c8c8c8;
+    font-style: oblique;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    border-style: groove;
+    -moz-box-align: center;
+}
+
+fieldset {
+    display: contents;
+    border-style: hidden;
+    border-collapse: collapse;
+}
+
+.container {
+    grid-template-columns: auto;
+}
+
+.btn {
+    background-color:darkblue;
+    align-items: center;
+    -webkit-text-fill-color: azure;
+    width: 300px;
+    height: 25px;
+    margin: 5px;
+    
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style:normal;
+    color: navy;
+}
+
+input, textarea {
+    width: 400px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    
+}
