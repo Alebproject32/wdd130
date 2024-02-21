@@ -6,7 +6,13 @@
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-align: center
+}
 
+.iframe {
+    display: flex;
+    justify-content: center;
 }
 
 .flex {
@@ -14,22 +20,115 @@ p {
     align-items: center;
 }
 
-h1, h2 {
+h1 {
+    text-align: center;    
+    color: white;
+}
+h2 {
     text-align: center;    
 }
+
+
+.grid {
+    padding: 30px;
+    background: #87ceeb;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    width: 96%;
+    margin: 0%;
+}
+
+nav {
+    font-size: 1.2rem;
+    display: flex;
+}
+
 
 .grid-layout-1 {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     width: auto;
-    margin: 0%;
+    margin: 10%;
     background-color:aliceblue;
     padding: 20px;
     text-align: center;
+}
+.grid-layout-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-evenly;
+    width: auto;
+    margin: 0%;
+    padding: 20px;
+    text-align: right;
 }
 
 .img {
     width: 120px;
     height: 120px;
+    border-radius: 15px;
 }
+
+.btn {
+    background-color:darkblue;
+    color: aliceblue;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+    margin: 5px;
+}
+
+.btn-orange {
+    background-color:orangered;
+    color: aliceblue;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+    margin: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    margin: 100px;
+    padding: 10%;
+    background: rgba(25, 25, 25, 0.5);
+    
+}
+
+.block {
+    display:block;
+    justify-items:center;
+    padding: 100px;
+}
+
+.box {
+    background: aliceblue;
+    padding: 40px;
+    margin: 10px;
+}
+
+form {  
+    background: #c8c8c8;
+    font-style: oblique;
+    width: 1000px;
+    height: 350px;
+    border-radius: 15px;
+    border-style: groove;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style:normal;
+    color: navy;
+}
+
+
+

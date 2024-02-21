@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <title>Contact Us Page | Alejandro Pérez</title>
-    <meta
-      name="description"
-      content="Important information about our Clients."
-    />
-    <meta name="author" content="Alejandro Pérez" />
+    <meta name="description" content="Important information about our Clients."/>
+    <meta name="author" content="Alejandro Pérez"/>
     <link rel="stylesheet" href="styles/contact.css"/>
   </head>
   <body>
     <header class="grid">
-      <img src="images/crossedoars.jpeg" alt="Rapids Site Logo" />
+      <img src="images/crossedoars.jpeg" alt="Rapids Site Logo"/>
       <nav class="flex">
         <a href="https://site-plan-rafting.html">Home Page</a>
         <a href="https://site-plan-rafting.html">About Us</a>
@@ -24,14 +21,14 @@
     <main>
       <div class="hero">
         <div class="background">
-          <img src="images/river-wide2.jpg" alt="Rapids landscape" />
+          <img src="images/river-wide2.jpg" alt="Rapids landscape"/>
           <div class="block">
-            <h1>Company Information</h1>
-                <p>Adress: Bolivar Av. Block Guillerman, Office 09, Valencia - Venezuela</p>
-                <p>Phone number: +58 (0000)-555-55-55</p>
-                <p>Email: siteplanrafting@gmail.com <a href="mailto:">sadf</a></a></p>
+            <h1>Company Information</h1> <br>
+                <p>Adress: Bolivar Av. Block Guillerman, Office 09, Valencia - Venezuela</p> <br>
+                <p>Phone number: +58 (0000)-555-55-55</p> <br>
+                <p>Email: siteplanrafting@gmail.com<a href="mailto:"></p> <br>
                <div class="map">
-                <p>Small embedded google map</p>
+                <p>Small embedded google map</p> <br>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125542.82489392861!2d-68.03866142952835!3d10.483846400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e805265cd0275bd%3A0x4eaa2ec6edb01443!2sIsla%20Rat%C3%B3n!5e0!3m2!1ses-419!2sve!4v1708469306802!5m2!1ses-419!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
                </div>
           </div>
@@ -66,21 +63,43 @@
             </figcaption>
           </figure>
       </section>
+      <form>
+        <fieldset>
+            <legend>User Comment Form</legend>
+            <label for="name">User Name:</label>
+            <input type="text" id="name" name="name"> <br>
+            <br>
+            <label for="email">User´s Email Adress:</label>
+            <input type="text" id="email" name="email"> <br>
+            <br>
+        </fieldset>
+        <br>
+        <div>
+            <button class="btn" type="submit">General Inquiry</button>
+            <button class="btn" type="submit">Reservation Question</button>
+            <button class="btn" type="submit">Website Suggestion</button> <br>
+            <br>
+            <label for="Message">The Message</label> <br>
+            <textarea id="message" name="message" rows="5" cols="100" placeholder="The buttons above were created to providy you support in:
+             1. General Inquiry: When you click on it, will conduce you our main website.
+             2. Reservation Question: You can write or send us any question regardles about our planes, technical staff will contact you as soon possble.
+             3. Website Suggestion: You can send us any suggestion to improve our service to you."></textarea> <br>
+            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe"> <br>
+        </div>
+        <div class="button">
+            <button class="btn-orange" type="button-orange">Submission</button>
+        </div>
+      </form>
     </main>
     <footer class="grid-layout-2">
       <p>
         &copy;2024 &#128073; Rapids Site Plan &#128072; Alejandro Pérez WDD 130
       </p>
       <nav class="sociallinks">
-        <a href="https://www.facebook.com"
-          ><img src="images/8081634.png" alt="Facebook"
-        /></a>
-        <a href="https://www.twitter.com"
-          ><img src="images/8081590.png" alt="Twitter"
-        /></a>
-        <a href="https://www.instagram.com"
-          ><img src="images/8081524.png" alt="Instagram"
-        /></a>
+        <a href="https://www.facebook.com"><img src="images/8081634.png" alt="Facebook"/></a>
+        <a href="https://www.twitter.com"><img src="images/8081590.png" alt="Twitter"/></a>
+        <a href="https://www.instagram.com"><img src="images/8081524.png" alt="Instagram"/></a>
       </nav>
     </footer>
   </body>
