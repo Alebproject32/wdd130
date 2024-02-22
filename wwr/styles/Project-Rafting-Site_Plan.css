@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root {
+    --primary-color: #0077B6;
+    --secondary-color: #DAD7CD;
+    --accent1-color: #ADE8F4;
+    --accent2-color: #03045e;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Inconsolata', monospace;
+
+    --nav-background-color: #ADE8F4;
+    --nav-link-color: #03045E;
+    --nav-hover-link-color: #DAD7CD;
+    --nav-hover-background-color: #03045e;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 2060px;
+    padding: 20px;
+}
+
+main {
+    background: #DAD7CD;
+    background-image: url(familygroup-belowfalls-r_orig.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2, h3, h4, h5, h6 {
+        font-family: var(--heading-font);
+        color:aliceblue;
+        font-style: oblique;
+        text-align: center;
+}
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300px;
+    font-size: 30px;
+    font-style: italic;
+    color:#ADE8F4;
+}
+
+p {
+    padding: 25px;
+    color:mediumblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+.hero {
+    position: relative;
+    float: right;
+}
+
+
+.hero img {
+    display: block;
+    width: 20%;;
+    height: 150%;
+    float: right;
+}
+.background img {
+    position: relative;
+    width: 102%;
+}
+ article {
+    position: absolute;
+    background-color: #03045e;
+    opacity: .4;
+    height: 80px;
+    bottom: 100px;
+    right: 180px;
+    float: left;
+}
+.block {
+    position: absolute;
+    background-color: black;
+    opacity: .4;
+    color: aliceblue;
+    bottom: 200px;
+    right: 260px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+}
